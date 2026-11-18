@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../logo.jpg" alt="OmniStacker" width="300" />
+<img src="../logi-mini.png" alt="OmniStacker" width="300" />
 
 # OmniStacker
 
@@ -11,8 +11,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
-[![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev/)
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
@@ -31,15 +29,12 @@
 
 我们是 **OmniStacker**。
 
-两个人，一个共识：**技术栈不是身份标签，只是解决问题的抽屉。** 需求从用户点下按钮的那一刻开始，一路穿过组件树、API 网关、事务、缓存、消息队列、容器、CDN，直到那块被压到极限的网卡——这条链路，**我们两个都能从第一像素讲到最后一字节**。
-
-> **人数：两个。** 覆盖面：Android 扫码 → UWP 看图 → 微信小程序 → Go 监控面板 → Vue3 管理后台 → C++ 精简版编辑器 → Incus 上的 VPS 交付平台。清单长到这个程度，是因为每个项目都没外包给“下一个环节”。
+一群人，一个共识：**技术栈不是身份标签，只是解决问题的抽屉。** 需求从用户点下按钮的那一刻开始，一路穿过组件树、API 网关、事务、缓存、消息队列、容器、CDN，直到那块被压到极限的网卡——这条链路，队里**每个人都能从头讲到尾**。
 
 - 🧩 **不分层站队**：每个人都能独立交付一条完整的 vertical slice（UI → API → 存储 → 部署 → 监控）。
 - ⚡ **交接成本趋近于零**：不用等“前端排期”“后端排期”，一个 PR 就能把一整个功能打通。
 - 🧠 **懂取舍的深度**：全栈不等于全都浅。每个人有一个真正的深水区，也有一圈足够宽的浅滩。
 - 🚢 **上线是习惯**：主干开发、小步快跑、默认自动化。发版不是仪式，是日常。
-- 🪶 **轻量是信仰**：能不引依赖就不引，能砍的包就砍，能零依赖跑起来的服务绝不拖一个运行时装上去。
 
 > 简历上写“熟悉前后端”的人很多；能把 `git bisect` 从 UI 画到内核的人不多。我们在后者里。
 
@@ -66,35 +61,30 @@
 
 ## 👥 组员
 
+<!-- 把 @xxx 和技能换成真实信息即可，其余结构可直接沿用 -->
+
 | 成员 | 定位 | 主攻 | 副攻 | 招牌能力 |
 | :--- | :--- | :--- | :--- | :--- |
-| [@letsopen](https://github.com/letsopen) | 🧰 全栈 · 多语言游击派 | Go 服务端 · C# / Android 原生客户端 | C++ 精简裁剪、微信小程序、Python 工具链、Incus 虚拟化交付 | 从客户端到服务端一个人打通，且**零依赖**也要跑起来 |
-| [@jxhutao](https://github.com/jxhutao) | 🎨 全栈 · 前端工程派 | Vue3 / TypeScript / Vite · Monorepo 工程化 | Shadcn UI 组件体系、中后台架构、Node 侧 BFF | 把管理后台做成**三年后还敢改**的产品 |
+| [@member-a](https://github.com/member-a) | 🎨 全栈 · 体验派 | React / Next.js / 设计系统 | Node.js、a11y、动效 | 把复杂交互做成“它本来就该这样” |
+| [@member-b](https://github.com/member-b) | ⚙️ 全栈 · 后端派 | Go / 分布式 / PostgreSQL | K8s、可观测性 | 高并发下把 P99 压回去 |
+| [@member-c](https://github.com/member-c) | 🦀 全栈 · 系统派 | Rust / 性能 / 底层 | WASM、网络编程 | 热点路径重写，延迟砍半 |
+| [@member-d](https://github.com/member-d) | ☁️ 全栈 · 平台派 | Terraform / K8s / CI-CD | Node.js、安全 | 一条流水线，从 commit 到生产 |
+| [@member-e](https://github.com/member-e) | 🤖 全栈 · 智能派 | Python / LLM / RAG | 前端、数据管道 | 把模型塞进产品还不翻车 |
 
 <details>
-<summary><b>按人展开：一个人 = 一整条技术栈</b></summary>
+<summary><b>想看每个人的“一句话自白”？展开</b></summary>
 
 <br/>
 
-### 🧰 [@letsopen](https://github.com/letsopen)
-
-一份仓库列表就能看出跨度：**Go、C#、C++、Java、JavaScript、Python** 全都在射程内，而且每个都不是“教程复刻”。
-
-- **Go · 服务端** — [`ProMonitor`](https://github.com/letsopen/ProMonitor)：超轻量服务器监控面板；[`ollama-openai-bridge`](https://github.com/letsopen/ollama-openai-bridge)：零依赖 Go 代理，把 JetBrains AI Assistant（走 Ollama 协议）接到任意 OpenAI 兼容 API，顺手解决了 stream EOF、DTO 严格序列化、模型列表动态同步这些坑。
-- **Java · Android** — [`ProScan`](https://github.com/letsopen/ProScan)：安卓条码/二维码扫描工具，同时兼容华为 HMS Scan、Google ML Kit 与经典 ZXing 三套引擎——多套 SDK 抽象成一个接口。
-- **C# · 桌面** — [`ProView`](https://github.com/letsopen/ProView)：Windows UWP 极简图片查看器；**C++ · 底层** — 对 Notepad++、SciTE、FileZilla 做过精简版，能不带的模块全砍掉。
-- **JavaScript · 小程序 / Python · 工具链** — [`ProSender`](https://github.com/letsopen/ProSender) 小程序文件互传、[`ncm-auto`](https://github.com/letsopen/ncm-auto) 自动化脚本。
-- **Infra · 虚拟化** — [`incudal`](https://github.com/letsopen/incudal)：基于 Incus 的 LXC / KVM NAT VPS 销售、交付与管理面板，从底层资源编排一路做到用户前台。
-
-> “能少一个依赖就少一个。C++ 我能精简，Go 我能单文件跑起来。”
-
-### 🎨 [@jxhutao](https://github.com/jxhutao)
-
-- **Vue3 全链路** — Vue 3 + TypeScript + Vite 的组合拳，响应式与组合式 API 用到通透。
-- **中后台工程化** — 长期在 Vue3 + Shadcn UI + Monorepo 的管理后台体系里打磨：权限、路由、表单引擎、主题、构建拆分。
-- **类型与规范** — 把 TypeScript 类型当成设计工具，而不是报错消音器。
-
-> “后台系统真正的难点不是写页面，是让它三年后还能改。”
+> **@member-a** — “我改 CSS 的时候，脑子里跑的是渲染管线。”
+>
+> **@member-b** — “先看监控，再看代码。九成问题不在我以为的地方。”
+>
+> **@member-c** — “性能不是优化出来的，是设计出来的。”
+>
+> **@member-d** — “能被手点的部署，一定会被点错。”
+>
+> **@member-e** — “模型很强，但产品要的是确定性。”
 
 </details>
 
@@ -125,13 +115,13 @@
 
 ## 🚀 我们在做的事
 
+<!-- 用真实项目替换：一行一个，链接到仓库或产品页 -->
+
 | 项目 | 一句话 | 技术栈 |
 | :--- | :--- | :--- |
-| [**ProMonitor**](https://github.com/letsopen/ProMonitor) | 超轻量服务器监控面板，单二进制丢上去就能跑 | Go |
-| [**ollama-openai-bridge**](https://github.com/letsopen/ollama-openai-bridge) | 零依赖 Go 代理，把 JetBrains AI Assistant 接到任意 OpenAI 兼容 API，连 stream EOF 都替你摆平 | Go · Ollama 协议 |
-| [**ProScan**](https://github.com/letsopen/ProScan) | Android 扫码工具，华为 HMS / Google ML Kit / ZXing 三引擎可切换 | Java · Android |
-| [**incudal**](https://github.com/letsopen/incudal) | 基于 Incus 的 LXC / KVM NAT VPS 销售、交付与管理面板 | Incus · 虚拟化 |
-| [**ProView**](https://github.com/letsopen/ProView) | Windows UWP 极简风格图片查看器 | C# · UWP |
+| **project-alpha** | 从 0 到 1 的产品，一个人两周打通全链路 | Next.js · Node · PostgreSQL |
+| **project-beta** | 高吞吐数据管道，日处理千万级事件 | Go · Kafka · ClickHouse |
+| **project-gamma** | 内部平台工具，把重复劳动全自动化 | Rust · Tauri · GitHub Actions |
 
 ---
 
