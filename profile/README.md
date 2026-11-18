@@ -82,18 +82,6 @@
 
 ---
 
-## 🚀 我们在做的事
-
-<!-- 用真实项目替换：一行一个，链接到仓库或产品页 -->
-
-| 项目 | 一句话 | 技术栈 |
-| :--- | :--- | :--- |
-| **project-alpha** | 从 0 到 1 的产品，一个人两周打通全链路 | Next.js · Node · PostgreSQL |
-| **project-beta** | 高吞吐数据管道，日处理千万级事件 | Go · Kafka · ClickHouse |
-| **project-gamma** | 内部平台工具，把重复劳动全自动化 | Rust · Tauri · GitHub Actions |
-
----
-
 ## 🤝 加入我们
 
 我们更在意这些：
