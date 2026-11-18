@@ -59,37 +59,6 @@
 
 ---
 
-## 👥 组员
-
-<!-- 把 @xxx 和技能换成真实信息即可，其余结构可直接沿用 -->
-
-| 成员 | 定位 | 主攻 | 副攻 | 招牌能力 |
-| :--- | :--- | :--- | :--- | :--- |
-| [@member-a](https://github.com/member-a) | 🎨 全栈 · 体验派 | React / Next.js / 设计系统 | Node.js、a11y、动效 | 把复杂交互做成“它本来就该这样” |
-| [@member-b](https://github.com/member-b) | ⚙️ 全栈 · 后端派 | Go / 分布式 / PostgreSQL | K8s、可观测性 | 高并发下把 P99 压回去 |
-| [@member-c](https://github.com/member-c) | 🦀 全栈 · 系统派 | Rust / 性能 / 底层 | WASM、网络编程 | 热点路径重写，延迟砍半 |
-| [@member-d](https://github.com/member-d) | ☁️ 全栈 · 平台派 | Terraform / K8s / CI-CD | Node.js、安全 | 一条流水线，从 commit 到生产 |
-| [@member-e](https://github.com/member-e) | 🤖 全栈 · 智能派 | Python / LLM / RAG | 前端、数据管道 | 把模型塞进产品还不翻车 |
-
-<details>
-<summary><b>想看每个人的“一句话自白”？展开</b></summary>
-
-<br/>
-
-> **@member-a** — “我改 CSS 的时候，脑子里跑的是渲染管线。”
->
-> **@member-b** — “先看监控，再看代码。九成问题不在我以为的地方。”
->
-> **@member-c** — “性能不是优化出来的，是设计出来的。”
->
-> **@member-d** — “能被手点的部署，一定会被点错。”
->
-> **@member-e** — “模型很强，但产品要的是确定性。”
-
-</details>
-
----
-
 ## 🧠 我们的全栈哲学
 
 1. **Vertical Slice over Handoff** — 按业务切片分活，不按技术层切人。一个功能的 DB、API、UI、部署，一个人负责到底。
