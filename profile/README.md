@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="../logi-mini.png" alt="OmniStacker" width="300" />
+<img src="../logo-mini.png" alt="OmniStacker" width="300" />
 
 # OmniStacker
 
-**一支把“全栈”写进日常、而不是写进简历的工程小队。**
+**一支把“全栈”写进日常，而不是写进简历的工程小队。**
 
 `前端到内核，设计稿到 K8s，没有交接棒，只有接力赛。`
 
@@ -50,7 +50,7 @@
 | **移动 / 跨端** | React Native、Expo、Tauri、PWA | 一套领域模型，多端落地，热更新链路打通 |
 | **后端 / API** | Node.js (Nest/Fastify)、Go、Rust (axum)、Python (FastAPI) | REST / GraphQL / gRPC 设计，幂等、限流、灰度、优雅降级 |
 | **数据 / 存储** | PostgreSQL、MySQL、Redis、ClickHouse、SQLite、Prisma / Drizzle | 索引与执行计划调优、分库分表、CDC 同步、缓存一致性 |
-| **基建 / 云原生** | Docker、Kubernetes、Terraform、Helm、GitHub Actions、Cloudflare | IaC 一把梭、蓝绿/金丝雀发布、成本与容量双控 |
+| **基建 / 云原生** | Docker、Kubernetes、Terraform、Helm、GitHub Actions、Cloudflare | IaC 一把梭、蓝绿 / 金丝雀发布、成本与容量双控 |
 | **可观测性** | OpenTelemetry、Prometheus、Grafana、Loki、Sentry | 从告警反推到那行代码，平均定位时间按分钟算 |
 | **AI / 数据** | LLM 应用、RAG、向量检索、pgvector、流式推理 | 把模型能力包成稳定产品，而不是 demo |
 | **工程效能** | Monorepo、Changesets、ESLint/Biome、Vitest/Playwright | 工具链自己造，规范写进 hook 里，不靠口头约定 |
@@ -135,7 +135,7 @@
 
 如果你也认为“这不是我的模块”是最无趣的一句话 —— 来聊聊。
 
-📮 联系：[开个 Issue](https://github.com/OmniStacker/.github/issues) · 或者直接给任意一位组员发 PR。
+📮 联系：[开个 Issue](https://github.com/OmniStacker/.github/issues) · 或者直接找任意一位组员开 PR。
 
 ---
 
